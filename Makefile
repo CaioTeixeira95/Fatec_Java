@@ -1,7 +1,7 @@
 all:
-	javac Adicao.java
+	javac MaiorMenor.java
 	clear
 
 run:
 	clear
-	java Adicao
+	java MaiorMenor
