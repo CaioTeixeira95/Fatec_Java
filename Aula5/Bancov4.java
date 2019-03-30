@@ -5,9 +5,9 @@ import java.util.ArrayList;
 
 class ContaPoupanca {
 
-	String nome_titular;
-	String numero_conta;
-	double saldo;
+	private String nome_titular;
+	private String numero_conta;
+	private double saldo;
 
 	public ContaPoupanca() {
 		this.nome_titular = "";
@@ -60,9 +60,10 @@ class ContaPoupanca {
 }
 
 class ContaCorrente {
-	String nome_titular;
-	String numero_conta;
-	double saldo;
+
+	private String nome_titular;
+	private String numero_conta;
+	private double saldo;
 
 	public ContaCorrente() {
 		this.nome_titular = "";
@@ -106,8 +107,8 @@ class ContaCorrente {
 
 class CarteiraClientes {
 	
-	ArrayList<ContaPoupanca> poupadores = new ArrayList<>();
-	ArrayList<ContaCorrente> correntistas = new ArrayList<>();
+	private ArrayList<ContaPoupanca> poupadores = new ArrayList<>();
+	private ArrayList<ContaCorrente> correntistas = new ArrayList<>();
 	
 	public CarteiraClientes() {
 		
@@ -206,7 +207,7 @@ class CarteiraClientes {
 	}
 }
 
-public class Bancov3 {
+public class Bancov4 {
 
     public static void main (String[] args) throws IOException{
 
@@ -321,7 +322,6 @@ public class Bancov3 {
 		System.out.println("\t\t Banco FATEC");
 		System.out.println("\t\t Volte Sempre !");
 		System.out.println("****************************************");
-		
-		
+
     }
 }
